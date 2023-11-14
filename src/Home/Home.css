@@ -1,0 +1,134 @@
+
+.text-center{
+    text-align: center;
+}
+.greeting-container{
+     display: block;
+     margin: 60px auto;
+    width:80%;
+    height: 350px;
+     border-radius: 5px;
+    padding:50px;
+    position:relative;
+    background-size: cover;
+    background-repeat: no-repeat;
+    box-shadow: 0 0 5px rgb(56, 54, 54);
+  
+
+}
+
+.to-text{
+    font-size: 30px;
+}
+
+.from-text{
+    position:absolute;
+    bottom:10px;
+    right:20px;
+}
+
+.input-field-container{
+    display: flex;
+    justify-content: space-evenly;
+    box-shadow: 0 0 5px rgb(171, 167, 167);
+    /* background-color: azure; */
+    padding: 20px;
+    margin-bottom: 20px;
+    border: 1px solid rgb(151, 14, 225);
+    margin: 20px;
+    border-radius: 5px;
+
+}
+
+.input-fields{
+    width:300px;
+    padding: 5px 10px;
+    font-size: 20px;
+    outline: none;
+    border: 0.4px solid gray;
+    border-radius: 5px;
+    margin-top: 5px;
+    color: rgb(14, 87, 198);
+}
+
+.greeting-text{
+    word-spacing: 10px;
+}
+
+.theme-1{
+    background-color: #4158D0;
+    background-image: linear-gradient(43deg, #4158D0 0%, #C850C0 46%, #FFCC70 100%);
+    
+}
+.theme-2{
+    background-color: #00DBDE;
+    background-image: linear-gradient(90deg, #00DBDE 0%, #FC00FF 100%);
+      
+}
+.theme-3{
+    background-color: #FFE53B;
+background-image: linear-gradient(147deg, #FFE53B 0%, #FF2525 74%);
+
+}
+.theme-4{
+    background-color: #FF3CAC;
+background-image: linear-gradient(225deg, #FF3CAC 0%, #784BA0 50%, #2B86C5 100%);
+
+}
+
+
+.customize-text{
+    font-size: 24px;
+}
+
+.url{
+    background-color: rgb(205, 202, 201);
+    text-align: center;
+    padding: 10px;
+    font-size: 22px;
+    cursor: pointer;
+    /* margin-top: 100px; */
+}
+
+@media screen and (max-width:768px){
+
+    .greeting-container{
+        
+        width:60%;
+        padding:30px;
+        position:relative;
+        margin: 20px auto;
+  
+
+    }
+
+    .input-field-container{
+
+        flex-direction:column;
+     margin-top: 10px;
+
+    }
+
+    .greeting-text{
+        font-size: 15px;
+        word-spacing: 2px;
+    }
+    
+
+    .to-text{
+        font-size: 15px;
+    }
+    
+    .from-text{
+        position:absolute;
+        bottom:10px;
+        right:20px;
+    }
+    
+    .diwali-greeting{
+        font-size: 15px;
+        text-align: center;
+    }
+
+    
+}
